@@ -19,7 +19,7 @@ Key features include:
 
 ## LUA Alarm Engine
 
-At the core of the dashboard's monitoring capabilities is a sophisticated LUA-based alarm engine that allows for highly customizable sensor monitoring and alert generation.
+At the core of the dashboard's monitoring capabilities is a LUA-based alarm engine that allows for highly customizable sensor monitoring and alert generation.
 
 ### How It Works
 
