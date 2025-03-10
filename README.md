@@ -7,7 +7,7 @@ A "constant work in progress" 🙂
 
 ## Overview
 
-Qt-based application designed to provide real-time monitoring and visualization of vehicle performance metrics. The application integrates with vehicle CAN bus systems to collect data from various sensors and presents them in an intuitive, user-friendly interface.
+Qt-based application designed to provide real-time monitoring and visualization of vehicle performance metrics. The application integrates with vehicle CAN bus systems to collect data from various sensors and presents them in an intuitive, user-friendly interface. Additionally, a large component of Holley's CAN protocol has been reverse engineered to allow spoofing external I/O modules.
 
 Key features include:
 - Real-time gauge visualization for critical vehicle parameters
