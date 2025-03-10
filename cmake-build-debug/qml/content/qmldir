@@ -1,0 +1,20 @@
+module content
+linktarget contentplugin
+optional plugin contentplugin
+classname contentPlugin
+typeinfo content.qmltypes
+prefer :/qt/qml/content/
+SpeedGauge 1.0 SpeedGauge.ui.qml
+Screen01 1.0 Screen01.ui.qml
+CustomDot 1.0 CustomDot.qml
+App 1.0 App.qml
+Rpm_dial_195_83 1.0 Rpm_dial_195_83.qml
+FuelGauge 1.0 FuelGauge.ui.qml
+CoolantGauge 1.0 CoolantGauge.qml
+OilGauge 1.0 OilGauge.qml
+DigitalGauge 1.0 DigitalGauge.qml
+ImageGauge 1.0 ImageGauge.qml
+LogWidget 1.0 LogWidget.qml
+Settings 1.0 Settings.qml
+CustomSlider 1.0 CustomSlider.qml
+

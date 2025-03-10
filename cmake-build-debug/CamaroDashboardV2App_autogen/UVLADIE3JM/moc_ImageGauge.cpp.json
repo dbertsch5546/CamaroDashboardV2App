@@ -1,0 +1,151 @@
+{
+    "classes": [
+        {
+            "className": "ImageGauge",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "imagePrefix",
+                    "notify": "imagePrefixChanged",
+                    "read": "imagePrefix",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setImagePrefix"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "numImages",
+                    "notify": "numImagesChanged",
+                    "read": "numImages",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setNumImages"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "value",
+                    "notify": "valueChanged",
+                    "read": "value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "xValue",
+                    "notify": "xValueChanged",
+                    "read": "xValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setXValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "yValue",
+                    "notify": "yValueChanged",
+                    "read": "yValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setYValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "sourceString",
+                    "notify": "sourceStringChanged",
+                    "read": "sourceString",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setSourceString"
+                }
+            ],
+            "qualifiedClassName": "ImageGauge",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "imagePrefixChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "minValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "maxValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "numImagesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "valueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "xValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "yValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "sourceStringChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ImageGauge.h",
+    "outputRevision": 68
+}

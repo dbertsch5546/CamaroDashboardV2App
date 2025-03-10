@@ -1,0 +1,3 @@
+[submodule "src/microshell"]
+    path = src/microshell
+    url = https://github.com/marcinbor85/microshell

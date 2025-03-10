@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/MultiText">
+    <file alias="qmldir">/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/qml/QtQuick/Studio/MultiText/qmldir</file>
+  </qresource>
+</RCC>
+

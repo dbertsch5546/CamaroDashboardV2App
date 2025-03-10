@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt-project.org/imports/QtQuick/Studio/EventSystem">/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/qml/QtQuick/Studio/EventSystem</file>
+
+  </qresource>
+</RCC>

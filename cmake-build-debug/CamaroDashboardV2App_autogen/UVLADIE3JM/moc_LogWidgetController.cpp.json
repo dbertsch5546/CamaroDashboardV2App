@@ -1,0 +1,168 @@
+{
+    "classes": [
+        {
+            "className": "LogWidgetController",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "logText",
+                    "notify": "logTextChanged",
+                    "read": "logText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setLogText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "xValue",
+                    "notify": "xValueChanged",
+                    "read": "xValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setXValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "yValue",
+                    "notify": "yValueChanged",
+                    "read": "yValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setYValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "width",
+                    "notify": "widthChanged",
+                    "read": "width",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setWidth"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "height",
+                    "notify": "heightChanged",
+                    "read": "height",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setHeight"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "fontSize",
+                    "notify": "fontSizeChanged",
+                    "read": "fontSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setFontSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "fontColor",
+                    "notify": "fontColorChanged",
+                    "read": "fontColor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFontColor"
+                }
+            ],
+            "qualifiedClassName": "LogWidgetController",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "logTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "xValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "yValueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "widthChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "heightChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "fontSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "fontColorChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "updateTimeout",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "LogWidgetController.h",
+    "outputRevision": 68
+}

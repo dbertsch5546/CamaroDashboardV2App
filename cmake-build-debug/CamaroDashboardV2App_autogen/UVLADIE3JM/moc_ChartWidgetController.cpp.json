@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "CustomPlot",
+            "object": true,
+            "qualifiedClassName": "CustomPlot",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ChartWidgetController.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,76 @@
+{
+    "classes": [
+        {
+            "className": "InputButton",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "rectX",
+                    "notify": "rectXChanged",
+                    "read": "rectX",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setRectX"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "rectY",
+                    "notify": "rectYChanged",
+                    "read": "rectY",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setRectY"
+                }
+            ],
+            "qualifiedClassName": "InputButton",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "rectXChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "rectYChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "rectangleClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ButtonInputWidget.h",
+    "outputRevision": 68
+}

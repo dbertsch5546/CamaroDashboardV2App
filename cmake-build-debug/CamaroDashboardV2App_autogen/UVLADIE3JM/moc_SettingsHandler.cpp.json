@@ -1,0 +1,113 @@
+{
+    "classes": [
+        {
+            "className": "SettingsHandler",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "canInterfaceName",
+                    "notify": "canInterfaceNameChanged",
+                    "read": "canInterfaceName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setCanInterfaceName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "logUpdateFrequency",
+                    "notify": "logUpdateFrequencyChanged",
+                    "read": "logUpdateFrequency",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setLogUpdateFrequency"
+                }
+            ],
+            "qualifiedClassName": "SettingsHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "canInterfaceNameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "logUpdateFrequencyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canInterfaceName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "logUpdateFrequency",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "saveClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "startCanSimulatorClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "stopCanSimulatorClicked",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "canInterfaceName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "logUpdateFrequency",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "handleSaveClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "handleStartCanSimulatorClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "handleStopCanSimulatorClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "SettingsHandler.h",
+    "outputRevision": 68
+}

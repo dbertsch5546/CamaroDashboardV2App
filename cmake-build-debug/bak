@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Log file location
+LOGFILE=/var/log/dashboard.log
+
+# Start XServer and log output
+xinit >> $LOGFILE 2>&1 &
+
+# Wait for X server to start
+sleep 10
+
+# Set the DISPLAY environment variable
+export DISPLAY=:0  # Ensure this matches the actual display number
+
+# Rotate Screen and log output
+xrandr --output DSI-2 --rotate inverted >> $LOGFILE 2>&1
+
+# Hide the mouse cursor
+unclutter -idle 0 &
+
+# Configure touch screen properties
+TOUCHSCREEN_NAME="4-0038 generic ft5x06 (79)"
+xinput set-prop "$TOUCHSCREEN_NAME" "Coordinate Transformation Matrix" -1 0 1 0 -1 1 0 0 1 >> $LOGFILE 2>&1
+# Add any other xinput settings as needed, for example:
+# xinput set-prop "$TOUCHSCREEN_NAME" "Evdev Mode" "absolute"
+
+# Start the GUI Dashboard application and log output
+/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/CamaroDashboardV2App >> $LOGFILE 2>&1 &
+
+# Wait indefinitely to keep the script running
+tail -f /dev/null
+

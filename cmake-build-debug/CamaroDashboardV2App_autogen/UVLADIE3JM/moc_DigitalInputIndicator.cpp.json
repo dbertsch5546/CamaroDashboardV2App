@@ -1,0 +1,61 @@
+{
+    "classes": [
+        {
+            "className": "DigitalInputIndicator",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "isOn",
+                    "notify": "isOnChanged",
+                    "read": "isOn",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIsOn"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "inputName",
+                    "read": "inputName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setInputName"
+                }
+            ],
+            "qualifiedClassName": "DigitalInputIndicator",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newIsOn",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "isOnChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "DigitalInputIndicator.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,11 @@
+module CamaroDashboardV2
+linktarget CamaroDashboardV2plugin
+optional plugin CamaroDashboardV2plugin
+classname CamaroDashboardV2Plugin
+typeinfo CamaroDashboardV2.qmltypes
+prefer :/qt/qml/CamaroDashboardV2/
+EventListSimulator 1.0 EventListSimulator.qml
+EventListModel 1.0 EventListModel.qml
+singleton Constants 1.0 Constants.qml
+DirectoryFontLoader 1.0 DirectoryFontLoader.qml
+

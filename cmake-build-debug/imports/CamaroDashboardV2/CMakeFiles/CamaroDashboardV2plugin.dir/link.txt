@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../qml/CamaroDashboardV2/libCamaroDashboardV2plugin.a CMakeFiles/CamaroDashboardV2plugin.dir/CamaroDashboardV2plugin_autogen/mocs_compilation.cpp.o CMakeFiles/CamaroDashboardV2plugin.dir/CamaroDashboardV2plugin_CamaroDashboardV2Plugin.cpp.o
+/usr/bin/ranlib ../../qml/CamaroDashboardV2/libCamaroDashboardV2plugin.a

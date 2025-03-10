@@ -1,0 +1,101 @@
+{
+    "classes": [
+        {
+            "className": "iconController",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "isLeftTurnVisible",
+                    "notify": "leftTurnVisibilityChanged",
+                    "read": "isLeftTurnVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setLeftTurnVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "isRightTurnVisible",
+                    "notify": "rightTurnVisibilityChanged",
+                    "read": "isRightTurnVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setRightTurnVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "isHeadlightVisible",
+                    "notify": "headlightVisibilityChanged",
+                    "read": "isHeadlightVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setHeadlightVisible"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "isHighBeamVisible",
+                    "notify": "highBeamVisibilityChanged",
+                    "read": "isHighBeamVisible",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setHighBeamVisible"
+                }
+            ],
+            "qualifiedClassName": "iconController",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "leftTurnVisibilityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "rightTurnVisibilityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "headlightVisibilityChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "highBeamVisibilityChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "iconController.h",
+    "outputRevision": 68
+}

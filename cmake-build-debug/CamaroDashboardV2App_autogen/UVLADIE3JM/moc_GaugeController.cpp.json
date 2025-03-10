@@ -1,0 +1,61 @@
+{
+    "classes": [
+        {
+            "className": "GaugeController",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "value",
+                    "notify": "valueChanged",
+                    "read": "value",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false,
+                    "write": "setValue"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "frameName",
+                    "notify": "frameNameChanged",
+                    "read": "frameName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFrameName"
+                }
+            ],
+            "qualifiedClassName": "GaugeController",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "valueChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "frameNameChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "GaugeController.h",
+    "outputRevision": 68
+}

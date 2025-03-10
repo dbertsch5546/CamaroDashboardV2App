@@ -1,0 +1,106 @@
+{
+	"BUILD_DIR" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_autogen",
+	"CMAKE_BINARY_DIR" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-src/src/imports/flowview",
+	"CMAKE_EXECUTABLE" : "/home/dbertsch/developmentEnvironments/clion-2023.3.4/bin/cmake/linux/aarch64/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-src/src/imports/flowview/CMakeLists.txt",
+		"/home/dbertsch/qt-host/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in",
+		"/home/dbertsch/qt-host/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
+		"/home/dbertsch/qt-host/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/dbertsch/CLionProjects/camarodashboardv2app",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_NETWORK_LIB",
+		"QT_PLUGIN",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QML_LIB",
+		"QT_STATICPLUGIN"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/dbertsch/qt-host/include/QtQml",
+		"/home/dbertsch/qt-host/include",
+		"/home/dbertsch/qt-host/include/QtCore",
+		"/home/dbertsch/qt-host/mkspecs/linux-g++",
+		"/home/dbertsch/qt-host/include/QtQmlIntegration",
+		"/home/dbertsch/qt-host/include/QtNetwork",
+		"/usr/include/c++/12",
+		"/usr/include/aarch64-linux-gnu/c++/12",
+		"/usr/include/c++/12/backward",
+		"/usr/lib/gcc/aarch64-linux-gnu/12/include",
+		"/usr/local/include",
+		"/usr/include/aarch64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT"
+	],
+	"MOC_OPTIONS" : [ "-Muri=FlowView" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/dbertsch/developmentEnvironments/clion-2023.3.4/bin/cmake/linux/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/.rcc/qrc_FlowView_raw_qml_0.cpp",
+		"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/FlowView_autogen/mocs_compilation.cpp",
+		"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/flowview_qmltyperegistrations.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/dbertsch/qt-host/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/home/dbertsch/qt-host/./libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 5,
+	"SETTINGS_FILE" : "/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/CMakeFiles/FlowViewplugin_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/FlowViewplugin_FlowViewPlugin.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/.rcc/qrc_FlowView_raw_qml_0.cpp",
+		"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/FlowView_autogen/mocs_compilation.cpp",
+		"/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/_deps/ds-build/src/imports/flowview/flowview_qmltyperegistrations.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,61 @@
+{
+    "classes": [
+        {
+            "className": "RPMProvider",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "displayRpm",
+                    "notify": "displayRpmChanged",
+                    "read": "displayRpm",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setDisplayRpm"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "rpmFrame",
+                    "notify": "rpmFrameChanged",
+                    "read": "rpmFrame",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setRpmFrame"
+                }
+            ],
+            "qualifiedClassName": "RPMProvider",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "displayRpmChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "rpmFrameChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "RPMProvider.h",
+    "outputRevision": 68
+}

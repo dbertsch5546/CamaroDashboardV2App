@@ -1,0 +1,4 @@
+ToolSet: 1.0 (local)Ninja: 1.12.1@/Users/dbertsch/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja
+Options: 
+
+Options:-DCMAKE_PREFIX_PATH=/home/dbertsch/qt-host/lib/cmake

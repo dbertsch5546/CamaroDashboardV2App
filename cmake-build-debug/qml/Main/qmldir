@@ -1,0 +1,4 @@
+module Main
+typeinfo CamaroDashboardV2App.qmltypes
+prefer :/qt/qml/Main/
+

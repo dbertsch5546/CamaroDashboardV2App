@@ -1,0 +1,881 @@
+[
+    {
+        "classes": [
+            {
+                "className": "InputButton",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "rectX",
+                        "notify": "rectXChanged",
+                        "read": "rectX",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setRectX"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "rectY",
+                        "notify": "rectYChanged",
+                        "read": "rectY",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setRectY"
+                    }
+                ],
+                "qualifiedClassName": "InputButton",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "rectXChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "rectYChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "y",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "rectangleClicked",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ButtonInputWidget.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "DigitalGaugeController",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "value",
+                        "notify": "valueChanged",
+                        "read": "value",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false,
+                        "write": "setValue"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "unit",
+                        "notify": "unitChanged",
+                        "read": "unit",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setUnit"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "gaugeName",
+                        "read": "gaugeName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setGaugeName"
+                    }
+                ],
+                "qualifiedClassName": "DigitalGaugeController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newValue",
+                                "type": "float"
+                            }
+                        ],
+                        "name": "valueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newUnit",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "unitChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "DigitalGaugeController.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "DigitalInputIndicator",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "isOn",
+                        "notify": "isOnChanged",
+                        "read": "isOn",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setIsOn"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "inputName",
+                        "read": "inputName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setInputName"
+                    }
+                ],
+                "qualifiedClassName": "DigitalInputIndicator",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newIsOn",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "isOnChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "DigitalInputIndicator.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "GaugeController",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "value",
+                        "notify": "valueChanged",
+                        "read": "value",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false,
+                        "write": "setValue"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "frameName",
+                        "notify": "frameNameChanged",
+                        "read": "frameName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setFrameName"
+                    }
+                ],
+                "qualifiedClassName": "GaugeController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "valueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "frameNameChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "GaugeController.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "ImageGauge",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "imagePrefix",
+                        "notify": "imagePrefixChanged",
+                        "read": "imagePrefix",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setImagePrefix"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "numImages",
+                        "notify": "numImagesChanged",
+                        "read": "numImages",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setNumImages"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "value",
+                        "notify": "valueChanged",
+                        "read": "value",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setValue"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "xValue",
+                        "notify": "xValueChanged",
+                        "read": "xValue",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setXValue"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "yValue",
+                        "notify": "yValueChanged",
+                        "read": "yValue",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setYValue"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "sourceString",
+                        "notify": "sourceStringChanged",
+                        "read": "sourceString",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setSourceString"
+                    }
+                ],
+                "qualifiedClassName": "ImageGauge",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "imagePrefixChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "minValueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "maxValueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "numImagesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "valueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "xValueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "yValueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "sourceStringChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ImageGauge.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "LogWidgetController",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "logText",
+                        "notify": "logTextChanged",
+                        "read": "logText",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setLogText"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "xValue",
+                        "notify": "xValueChanged",
+                        "read": "xValue",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setXValue"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "yValue",
+                        "notify": "yValueChanged",
+                        "read": "yValue",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setYValue"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "width",
+                        "notify": "widthChanged",
+                        "read": "width",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setWidth"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "height",
+                        "notify": "heightChanged",
+                        "read": "height",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setHeight"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "fontSize",
+                        "notify": "fontSizeChanged",
+                        "read": "fontSize",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setFontSize"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "name": "fontColor",
+                        "notify": "fontColorChanged",
+                        "read": "fontColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setFontColor"
+                    }
+                ],
+                "qualifiedClassName": "LogWidgetController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "logTextChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "xValueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "yValueChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "widthChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "heightChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fontSizeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "fontColorChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "name": "updateTimeout",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickPaintedItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "LogWidgetController.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "RPMProvider",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "displayRpm",
+                        "notify": "displayRpmChanged",
+                        "read": "displayRpm",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDisplayRpm"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "rpmFrame",
+                        "notify": "rpmFrameChanged",
+                        "read": "rpmFrame",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setRpmFrame"
+                    }
+                ],
+                "qualifiedClassName": "RPMProvider",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "displayRpmChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "rpmFrameChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "RPMProvider.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "SettingsHandler",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "canInterfaceName",
+                        "notify": "canInterfaceNameChanged",
+                        "read": "canInterfaceName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setCanInterfaceName"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "logUpdateFrequency",
+                        "notify": "logUpdateFrequencyChanged",
+                        "read": "logUpdateFrequency",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setLogUpdateFrequency"
+                    }
+                ],
+                "qualifiedClassName": "SettingsHandler",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "canInterfaceNameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "logUpdateFrequencyChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "canInterfaceName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "logUpdateFrequency",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "saveClicked",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "startCanSimulatorClicked",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "stopCanSimulatorClicked",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "canInterfaceName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "logUpdateFrequency",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "handleSaveClicked",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "handleStartCanSimulatorClicked",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "handleStopCanSimulatorClicked",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SettingsHandler.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "iconController",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "isLeftTurnVisible",
+                        "notify": "leftTurnVisibilityChanged",
+                        "read": "isLeftTurnVisible",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setLeftTurnVisible"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "isRightTurnVisible",
+                        "notify": "rightTurnVisibilityChanged",
+                        "read": "isRightTurnVisible",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setRightTurnVisible"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "isHeadlightVisible",
+                        "notify": "headlightVisibilityChanged",
+                        "read": "isHeadlightVisible",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setHeadlightVisible"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "isHighBeamVisible",
+                        "notify": "highBeamVisibilityChanged",
+                        "read": "isHighBeamVisible",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setHighBeamVisible"
+                    }
+                ],
+                "qualifiedClassName": "iconController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "leftTurnVisibilityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "rightTurnVisibilityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "headlightVisibilityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "highBeamVisibilityChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "iconController.h",
+        "outputRevision": 68
+    }
+]

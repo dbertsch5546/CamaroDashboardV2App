@@ -1,0 +1,15 @@
+-rootPath
+/home/dbertsch/CLionProjects/camarodashboardv2app
+-cmake-output
+-output-file
+/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/.qt_plugins/Qt6_QmlPlugins_Imports_CamaroDashboardV2App.cmake
+-importPath
+/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/qml/Main
+-importPath
+/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/qml
+-importPath
+/home/dbertsch/qt-host/./qml
+-qrcFiles
+/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/.rcc/configuration.qrc
+/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/.rcc/qmake_Main.qrc
+/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/.rcc/CamaroDashboardV2App_raw_qml_0.qrc

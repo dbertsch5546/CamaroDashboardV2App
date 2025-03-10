@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "TouchWidget",
+            "object": true,
+            "qualifiedClassName": "TouchWidget",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "squareClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickPaintedItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "TouchWidget.h",
+    "outputRevision": 68
+}

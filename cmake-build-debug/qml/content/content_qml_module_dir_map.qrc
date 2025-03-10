@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/content">/home/dbertsch/CLionProjects/camarodashboardv2app/cmake-build-debug/qml/content</file>
+
+  </qresource>
+</RCC>
